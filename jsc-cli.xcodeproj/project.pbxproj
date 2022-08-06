@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4B79D91B289AAEBF00616D81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B79D91A289AAEBF00616D81 /* main.m */; };
+		4B79D927289E561900616D81 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B79D922289AAF0100616D81 /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		4B79D917289AAEBF00616D81 /* jsc-cli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "jsc-cli"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B79D91A289AAEBF00616D81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B79D922289AAF0100616D81 /* JavaScriptCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JavaScriptCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B79D924289AAFA600616D81 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B79D927289E561900616D81 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +47,7 @@
 			children = (
 				4B79D919289AAEBF00616D81 /* jsc-cli */,
 				4B79D918289AAEBF00616D81 /* Products */,
+				4B79D921289AAF0100616D81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +65,15 @@
 				4B79D91A289AAEBF00616D81 /* main.m */,
 			);
 			path = "jsc-cli";
+			sourceTree = "<group>";
+		};
+		4B79D921289AAF0100616D81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B79D924289AAFA600616D81 /* JavaScriptCore.framework */,
+				4B79D922289AAF0100616D81 /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
